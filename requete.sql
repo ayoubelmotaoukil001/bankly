@@ -108,6 +108,9 @@ where customer_id = 1 ;
 SELECT * FROM account
 ORDER BY balance ;
 
+/*19 afficher les transactions triées par amount (ordre décroissant)*/
+SELECT * FROM transac
+ORDER BY amount desc ;
 
 
 
