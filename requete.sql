@@ -89,5 +89,10 @@ select *from account
 where acc_type ="Savings" ;
 
 
+/*15afficher les transactions avec un amount ≥ 500 */
+SELECT * FROM transac
+WHERE amount >= 500;
+
+
 
 
