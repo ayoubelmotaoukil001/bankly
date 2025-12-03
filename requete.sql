@@ -64,4 +64,10 @@ select acc_num from account  ;
  where balance <= 0 ;
 
 
+ /* 10 afficher les transactions de type "debit*/
+select *from transac 
+where tran_type = "debit" ;
+
+
+
 
