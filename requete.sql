@@ -84,5 +84,10 @@ JOIN account ON customers.customer_id = account.customer_id
 WHERE account.advisors_id = 2;
 
 
+/* 14  afficher les accounts ayant account_type=""saving" */
+select *from account
+where acc_type ="Savings" ;
+
+
 
 
