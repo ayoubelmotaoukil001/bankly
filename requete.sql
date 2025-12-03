@@ -93,6 +93,10 @@ where acc_type ="Savings" ;
 SELECT * FROM transac
 WHERE amount >= 500;
 
+/*16  afficher les transactions avec un amount entre 100 et 1000*/
+select *from transac
+where amount >=100 and amount <=1000 ;
+
 
 
 
