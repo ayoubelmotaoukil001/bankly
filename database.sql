@@ -15,3 +15,14 @@ create table advisors
  full_name varchar(250),
  email varchar(250) 
 );
+create table account 
+ (
+    account_id int primary key  AUTO_INCREMENT ,
+    acc_num  int,
+    balance int  ,
+    acc_type enum('Checking','Savings','Business') ,
+    customer_id int ,
+    advisors_id int ,
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id),
+    FOREIGN KEY (advisors_id) REFERENCES advisors(advisors_id)
+ );
