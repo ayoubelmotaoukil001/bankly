@@ -25,3 +25,8 @@ VALUES
 (1000.00, 'credit', '2024-12-02 14:20:00', 2),
 (500.00, 'debit', '2024-12-03 09:15:00', 3),
 (2200.50, 'credit', '2024-12-04 16:40:00', 4);
+
+/* 1insere un noveau client */
+
+INSERT INTO customers (full_name, email, phone, rege_date)
+VALUES ('Youssef', 'youssef@gmail.com', 0612345675, '2024-12-05');
