@@ -59,5 +59,9 @@ select acc_num from account  ;
  select *FROM account 
  where balance > 10000 ;
 
+ /* 9 afficher les accounts avec un balance ≤ 0 */
+ select *FROM account
+ where balance <= 0 ;
+
 
 
