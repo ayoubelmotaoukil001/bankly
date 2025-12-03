@@ -9,3 +9,9 @@ create table  customers
  phone int ,
  rege_date date 
 );
+create table advisors
+(
+ advisors_id int primary key AUTO_INCREMENT ,
+ full_name varchar(250),
+ email varchar(250) 
+);
