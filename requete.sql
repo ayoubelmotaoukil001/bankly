@@ -122,5 +122,11 @@ select *from  transac
 order by tran_date desc
 
 
+/* 22 afficher toutes les transactions triées par transaction_date décroissante*/
+select *from  transac 
+order by tran_date desc
+LIMIT 3; 
+
+
 
 
