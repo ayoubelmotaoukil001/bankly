@@ -36,3 +36,5 @@ VALUES ('Youssef', 'youssef@gmail.com', 0612345675, '2024-12-05');
  update customers
     -> set phone  = 0700000000
     -> where customer_id =1 ;
+/*3 afficher tous les customers*/
+select *from customers ;
