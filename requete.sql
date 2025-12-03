@@ -44,3 +44,7 @@ select *from customers ;
 /* 4 afficher uniquement les full_name et email des customers */
 SELECT full_name, email FROM customers;
 
+/*5 afficher tous les accounts  */
+SELECT * FROM account;
+
+
