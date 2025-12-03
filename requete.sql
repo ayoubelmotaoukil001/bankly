@@ -122,10 +122,20 @@ select *from  transac
 order by tran_date desc
 
 
-/* 22 afficher toutes les transactions triées par transaction_date décroissante*/
+/* 22 Afficher les 3 dernières transactions */
 select *from  transac 
 order by tran_date desc
 LIMIT 3; 
+
+/*23 afficher chaque account avec le nom du customer et le nom de l’advisor (JOIN)*/
+SELECT account.account_id, account.acc_num, account.balance, account.acc_type,
+       customers.full_name AS customer_name,
+       advisors.full_name AS advisor_name
+FROM account
+JOIN customers ON account.customer_id = customers.customer_id
+JOIN advisors ON account.advisors_id = advisors.advisors_id;
+
+
 
 
 
