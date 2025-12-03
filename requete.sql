@@ -72,6 +72,10 @@ where tran_type = "debit" ;
 select *from transac 
 where tran_type = "credit" ;
 
+/*12 afficher les transactions du account_id = 1 */
+select *from transac 
+where account_id = 1 ;
+
 
 
 
