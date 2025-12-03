@@ -30,3 +30,9 @@ VALUES
 
 INSERT INTO customers (full_name, email, phone, rege_date)
 VALUES ('Youssef', 'youssef@gmail.com', 0612345675, '2024-12-05');
+
+/* 2 update le numero de telephone*/
+
+ update customers
+    -> set phone  = 0700000000
+    -> where customer_id =1 ;
