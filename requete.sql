@@ -18,3 +18,10 @@ VALUES
 (1002, 12000, 'Savings', 2, 2),
 (1003, 3000, 'Business', 3, 3),
 (1004, 7500, 'Checking', 4, 4);
+
+INSERT INTO transac (amount, tran_type, tran_date, account_id)
+VALUES
+(250.75, 'debit', '2024-12-01 10:30:00', 1),
+(1000.00, 'credit', '2024-12-02 14:20:00', 2),
+(500.00, 'debit', '2024-12-03 09:15:00', 3),
+(2200.50, 'credit', '2024-12-04 16:40:00', 4);
