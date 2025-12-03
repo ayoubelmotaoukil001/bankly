@@ -112,6 +112,11 @@ ORDER BY balance ;
 SELECT * FROM transac
 ORDER BY amount desc ;
 
+/*20 afficher les 5 plus grandes transactions*/
+SELECT * FROM transac
+ORDER BY amount DESC
+LIMIT 5;
+
 
 
 
