@@ -52,4 +52,8 @@ SELECT * FROM account;
 select acc_num from account  ;
 
 
+/* 7 afficher toutes les transactions*/
+ select *from transac ;
+
+
 
