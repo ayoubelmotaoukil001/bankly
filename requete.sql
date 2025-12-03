@@ -98,5 +98,10 @@ select *from transac
 where amount >=100 and amount <=1000 ;
 
 
+/*17 afficher les accounts du customer_id = 1*/
+select *from account
+where customer_id = 1 ;
+
+
 
 
