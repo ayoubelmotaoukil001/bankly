@@ -68,6 +68,10 @@ select acc_num from account  ;
 select *from transac 
 where tran_type = "debit" ;
 
+/* 11 afficher les transactions de type "credit*/
+select *from transac 
+where tran_type = "credit" ;
+
 
 
 
