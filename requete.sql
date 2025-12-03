@@ -55,5 +55,9 @@ select acc_num from account  ;
 /* 7 afficher toutes les transactions*/
  select *from transac ;
 
+ /* 8 afficher les accounts avec un balance ≤ 0 */
+ select *FROM account 
+ where balance > 10000 ;
+
 
 
