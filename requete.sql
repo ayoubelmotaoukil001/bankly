@@ -117,6 +117,10 @@ SELECT * FROM transac
 ORDER BY amount DESC
 LIMIT 5;
 
+/* 21 afficher toutes les transactions triées par transaction_date décroissante*/
+select *from  transac 
+order by tran_date desc
+
 
 
 
