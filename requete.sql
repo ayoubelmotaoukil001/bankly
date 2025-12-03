@@ -77,5 +77,12 @@ select *from transac
 where account_id = 1 ;
 
 
+/*13 afficher les customers ayant un account géré par l’advisor_id = 2 */
+SELECT customers.*
+FROM customers
+JOIN account ON customers.customer_id = account.customer_id
+WHERE account.advisors_id = 2;
+
+
 
 
