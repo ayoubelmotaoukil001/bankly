@@ -104,4 +104,11 @@ where customer_id = 1 ;
 
 
 
+/*18 afficher les accounts triés par balance (ordre croissant) */
+SELECT * FROM account
+ORDER BY balance ;
+
+
+
+
 
